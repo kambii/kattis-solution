@@ -3,6 +3,7 @@ package org.example.Tarifa;
 import java.util.Scanner;
 
 public class tarifa {
+    // The first and only line of output must contain the required value from the task.
     public static void input(){
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();

@@ -3,6 +3,7 @@ package org.example.ovissa;
 import java.util.Scanner;
 
 public class ovissa{
+    // Output one integer, Unnar’s level of uncertainty.
     public static void input(){
 
         Scanner sc = new Scanner(System.in);

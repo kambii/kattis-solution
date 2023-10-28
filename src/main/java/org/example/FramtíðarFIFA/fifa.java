@@ -3,6 +3,7 @@ package org.example.FramtíðarFIFA;
 import java.util.Scanner;
 
 public class fifa{
+    // Print the current year.
     public void put(){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();  // the number of improvements since you were frozen.

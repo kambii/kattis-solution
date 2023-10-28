@@ -3,6 +3,8 @@ package org.example.Apaxiaaaaaaaaaaaans;
 import java.util.Scanner;
 
 public class apaxiaaans {
+ //  taking Apaxian names and replacing all consecutive runs of
+ //  the same letter by a single instance of such letter.
     public static String input(String name){
         StringBuilder result = new StringBuilder(); // Used to build and manipulate strings efficiently
         char previousChar = 0;
