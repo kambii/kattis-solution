@@ -10,13 +10,26 @@ public class flatbokuveisla {
     // ---------------------------------------------
     //Print one integer, the number of slices left over.
 
-    public static void input() {
+  /*  public static void input() {
         Scanner sc = new Scanner(System.in);
         int slices = sc.nextInt(); // Number of slices
         int residents = sc.nextInt(); // Number of residents
         int slicesLeft = slices % residents; // Calculate the slices left over
         System.out.println(slicesLeft);
+    } */
+
+    public static void input() {
+        Scanner sc = new Scanner(System.in);
+        int slices = sc.nextInt();
+        for (int i = 0; i < slices; i++){
+            int residents = sc.nextInt();
+            int slicesLeft = slices % residents;
+            System.out.println(slicesLeft);
+            break;
+        }
     }
+
+
 
     public static void main(String[] args) {
         input();
